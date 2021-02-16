@@ -11,6 +11,9 @@ background-color: #777777;
 
 h1 {
   color: #220000;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #550000;
 }
 
 p {

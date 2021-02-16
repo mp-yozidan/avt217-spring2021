@@ -7,13 +7,19 @@ property: value;
 
 body {
 background-color: #777777;
-
 }
 
 h1 {
-  color: #220000
+  color: #220000;
 }
 
-p{
+p {
   color: black;
+}
+
+a {
+  color: #770000;
+}
+a:hover {
+  color: #dd0000;
 }

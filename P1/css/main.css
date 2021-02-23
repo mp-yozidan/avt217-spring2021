@@ -21,14 +21,10 @@ p {
   font-size: 21px;
 }
 
-ul{
-  color: black;
-  font-size: 19px;
-}
-
 a {
   color: #770000;
 }
 a:hover {
   color: #dd0000;
+  text-shadow: 2px 2px #000000;
 }

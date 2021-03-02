@@ -1,42 +1,52 @@
 h1{
-color: steelblue;
-text-align: center;
-text-decoration: underline;
-text-decoration-color: lightcyan;
-font-family: 'Audiowide', cursive;
+  color: steelblue;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: lightcyan;
+  font-family: 'Audiowide', cursive;
 }
 h2{
-
-}
-h3{
-
+  margin-left: 20px;
 }
 h2, h3{
   color: lightcyan;
+  font-family: 'Audiowide', cursive;
 }
 p{
-font-size: 17px;
-color: darkslategray;
-margin-left: 50px;
-margin-right: 50px;
+  font-size: 17px;
+  color: darkslategray;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 body{
   background-color: lightsteelblue;
 }
 ul li{
-
+  font-size: 17px;
+  color: darkslategray;
+  font-family: 'Ubuntu Mono', monospace;
+  margin-left: 80px;
 }
 #summary{
-font-size: 14px;
-font-family: 'Source Code Pro', monospace;
-font-style: italic;
+  font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+  font-style: italic;
 }
 em{
-
+  font-weight: 700;
+  font-style: normal;
 }
 .credit{
   text-align: right;
   margin-right: 60px;
+}
+p.contrasts{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+h3.contrasts{
+  margin-left: 100px;
 }
 /**
 Fonts

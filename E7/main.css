@@ -1,5 +1,9 @@
 h1{
-
+color: steelblue;
+text-align: center;
+text-decoration: underline;
+text-decoration-color: lightcyan;
+font-family: 'Audiowide', cursive;
 }
 h2{
 
@@ -7,12 +11,43 @@ h2{
 h3{
 
 }
-h3{
-
+h2, h3{
+  color: lightcyan;
 }
 p{
-
+font-size: 17px;
+color: darkslategray;
+margin-left: 50px;
+margin-right: 50px;
 }
 body{
-  background-color: dodgerblue;
+  background-color: lightsteelblue;
 }
+ul li{
+
+}
+#summary{
+font-size: 14px;
+font-family: 'Source Code Pro', monospace;
+font-style: italic;
+}
+em{
+
+}
+.credit{
+  text-align: right;
+  margin-right: 60px;
+}
+/**
+Fonts
+DotGothic
+Ubuntu Mono
+VT323
+Major Mono Display
+Nova Mono
+Press Start 2P
+Gruppo
+Gugi
+Megrim
+
+**/

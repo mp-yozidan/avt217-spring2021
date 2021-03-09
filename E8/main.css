@@ -1,8 +1,10 @@
 .screenshot{
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 h2{
   text-align: center;
+}
+img{
+  display: block;
 }

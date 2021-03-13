@@ -9,10 +9,7 @@ h1, h2, h3, h4, h5, h6, p{
 h1{
   font-family: 'Major Mono Display', monospace;
 }
-h2, h3{
-  font-family: 'Megrim', cursive;
-}
-h4, h5, h6{
+h2, h3, h4, h5, h6{
   font-family: 'Press Start 2P', monospace;
 }
 p{

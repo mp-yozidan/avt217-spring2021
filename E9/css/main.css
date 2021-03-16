@@ -1,0 +1,40 @@
+div{
+  background-color: ;
+  height: 100px;
+  width: 100px;
+}
+
+.lasertri{
+  width: 0;
+  height: 0;
+  border-width: 140px;
+  border-style: solid;
+  border-bottom-color: magenta;
+  transform: skewX(-30deg) skewY(10deg) rotate(-25deg);
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+
+.hollow{
+  position: relative;
+  top: -124px;
+  left: -129px;
+  width: 0;
+  height: 0;
+  border-width: 130px;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: black;
+
+  /*
+  border-style: solid;
+  border-bottom-color: white;
+  border-left-style: hidden;
+  border-top-style: hidden;
+  */
+}
+
+body.arcade{
+  background-color: black;
+}

@@ -1,10 +1,4 @@
-div{
-  background-color: ;
-  height: 100px;
-  width: 100px;
-}
-
-.lasertri{
+#arx .triangle{
   width: 0;
   height: 0;
   border-width: 140px;
@@ -12,11 +6,12 @@ div{
   border-bottom-color: magenta;
   transform: skewX(-30deg) skewY(10deg) rotate(-25deg);
   position: relative;
-  bottom: 100px;
+  top: -100px;
   left: 50px;
+  float: left;
+  margin-left: 60px;
 }
-
-.hollow{
+#arx .trihollow{
   position: relative;
   top: -124px;
   left: -129px;
@@ -26,15 +21,115 @@ div{
   border-style: solid;
   border-color: transparent;
   border-bottom-color: black;
-
-  /*
+  float: inherit;
+}
+#arx .circle{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: cyan;
+  float: left;
+  margin-left: 90px;
+  margin-top: 160px;
+}
+#arx .wedge{
+  position: relative;
+  left: -13px;
+  bottom: 30px;
+  height: 0;
+  width: 0;
+  border-width: 70px;
   border-style: solid;
-  border-bottom-color: white;
-  border-left-style: hidden;
-  border-top-style: hidden;
-  */
+  border-color: transparent;
+  border-top-color: yellow;
+  float: inherit;
+  transform: rotate(25deg) scaleX(40%);
+}
+#arx .diamond{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  transform: rotate(180deg) skew(20deg, 20deg);
+}
+#lem .circle{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: lemonchiffon;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  float: left;
+}
+#lem .bubble{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: pink;
+  float: left;
+  position: relative;
+  left: 290px;
+  top: -40px;
+}
+#lem .fizz1{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: gold;
+  float: left;
+  position: relative;
+  left: 300px;
+  top: 150px;
+}
+#lem .fizz2{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: peachpuff;
+  float: left;
+  position: relative;
+  left: 350px;
+}
+#lem .push{
+  position: relative;
+  left: 400px;
 }
 
+#tile .square1{
+
+}
+.break{
+  clear: both;
+}
+body{
+  display: flow-root;
+}
 body.arcade{
   background-color: black;
+}
+body.lemonade{
+  min-height: 100%;
+  background-image: linear-gradient(to bottom, yellow, hotpink);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+body.gig{
+  background-image: linear-gradient(to bottom, white, skyblue, deepskyblue, dodgerblue, hotpink);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+body.tile{
+  background-color: white;
+}
+body.psy{
+  background-image: repeating-radial-gradient();
+}
+ol li, h1, h2{
+  text-align: center;
 }

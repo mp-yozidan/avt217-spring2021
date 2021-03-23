@@ -100,8 +100,37 @@
   position: relative;
   left: 400px;
 }
-
+#giga .beep1{
+  background-image: linear-gradient(to bottom right, violet, orchid, mediumorchid, darkmagenta);
+  height: 150px;
+  width: 150px;
+  border-radius: 60%;
+  margin: 10px;
+  float: left;
+  border-style: solid;
+  border-color: mintcream;
+}
+#giga .beep2{
+  background-image: linear-gradient(to bottom left, mintcream, lightcyan, aquamarine);
+  height: 150px;
+  width: 150px;
+  border-radius: 60%;
+  margin: 10px;
+  margin-top: 80px;
+  float: left;
+  border-style: solid;
+  border-color: violet;
+}
 #tile .square1{
+
+}
+#tile .square2{
+
+}
+#tile .square3{
+
+}
+#tile .square4{
 
 }
 .break{
@@ -120,8 +149,8 @@ body.lemonade{
   background-repeat: no-repeat;
 }
 body.gig{
-  background-image: linear-gradient(to bottom, white, skyblue, deepskyblue, dodgerblue, hotpink);
-  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, white, skyblue, deepskyblue, dodgerblue, hotpink, pink, plum, lavender, white);
+  min-height: 100vh;
   background-repeat: no-repeat;
 }
 body.tile{

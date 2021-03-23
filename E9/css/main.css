@@ -122,16 +122,44 @@
   border-color: violet;
 }
 #tile .square1{
-
+  height: 50px;
+  width: 50px;
+  border-style: outset;
+  border-width: 10px;
+  margin: 5px;
+  float: left;
+  border-color: aquamarine;
+  background-color: mediumaquamarine;
 }
 #tile .square2{
-
+  height: 50px;
+  width: 50px;
+  border-style: outset;
+  border-width: 10px;
+  margin: 5px;
+  float: left;
+  border-color: mediumslateblue;
+  background-color: slateblue;
 }
 #tile .square3{
-
+  height: 50px;
+  width: 50px;
+  border-style: outset;
+  border-width: 10px;
+  margin: 5px;
+  float: left;
+  border-color: palevioletred;
+  background-color: mediumvioletred;
 }
 #tile .square4{
-
+  height: 50px;
+  width: 50px;
+  border-style: outset;
+  border-width: 10px;
+  margin: 5px;
+  float: left;
+  border-color: darkkhaki;
+  background-color: olive;
 }
 .break{
   clear: both;
@@ -154,7 +182,7 @@ body.gig{
   background-repeat: no-repeat;
 }
 body.tile{
-  background-color: white;
+  background-color: bisque;
 }
 body.psy{
   background-image: repeating-radial-gradient();

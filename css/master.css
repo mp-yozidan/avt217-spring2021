@@ -1,0 +1,22 @@
+header{
+  width: 75vw;
+  margin: 25px auto;
+}
+main{
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+body{
+  background-color: mintcream;
+}
+.col{
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 900px) {
+  .col{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

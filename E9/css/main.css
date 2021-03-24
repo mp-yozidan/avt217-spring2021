@@ -161,6 +161,38 @@
   border-color: darkkhaki;
   background-color: olive;
 }
+#psy .stripe{
+  height: 2000px;
+  width: 2%;
+  background-image: linear-gradient(yellow, cyan, magenta);
+  float: left;
+}
+#psy .mrgn{
+  margin-right: 2%;
+}
+#psy .bubble{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: radial-gradient(mintcream, aquamarine, lightseagreen);
+}
+#psy .circle{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: radial-gradient(lavenderblush, pink, hotpink);
+}
+#psy .fizz{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: radial-gradient(lavender, plum, blueviolet);
+}
+#psy .spacer{
+  margin-top: 23px;
+  margin-left: 5px;
+}
+}
 .break{
   clear: both;
 }
@@ -185,7 +217,9 @@ body.tile{
   background-color: bisque;
 }
 body.psy{
-  background-image: repeating-radial-gradient();
+  background-image: repeating-radial-gradient(red, yellow, lime, cyan, blue, magenta);
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 ol li, h1, h2{
   text-align: center;

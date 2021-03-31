@@ -1,12 +1,11 @@
 body{
   background-color: cornsilk;
 }
-.workspace{
-  margin-left: 20vh;
-  margin-right: 20vh;
-}
 .center{
-  margin: 10vh auto;
+  margin: auto;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  margin-top: 10vh;
 }
 .holder{
   height: 500px;

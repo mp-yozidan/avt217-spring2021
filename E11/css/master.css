@@ -1,3 +1,181 @@
-.sorkle{
-  
+body{
+  background-color: cornsilk;
+}
+.workspace{
+  margin-left: 20vh;
+  margin-right: 20vh;
+}
+.center{
+  margin: 10vh auto;
+}
+.holder{
+  height: 500px;
+  width: 200px;
+  background-color: white;
+  opacity: 75%;
+  margin: inherit;
+  z-index: -15;
+  margin: auto;
+  position: relative;
+  float: left;
+}
+.box{
+  height: 500px;
+  width: 200px;
+  background-color: limegreen;
+  z-index: 1;
+}
+.flap{
+  opacity: 75%;
+  position: relative;
+  z-index: 2;
+}
+.flap1{
+  height: 30px;
+  width: 200px;
+  background-color: white;
+  z-index: inherit;
+  position: relative;
+  float: left;
+}
+.flap2{
+  height: 10px;
+  width: 190px;
+  background-color: white;
+  z-index: inherit;
+  position: relative;
+  top: 0px;
+  float: left;
+}
+.flap3{
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 45%;
+  z-index: 4;
+  position: relative;
+  top: 20px;
+  left: 180px;
+}
+.flap4{
+  width: 20px;
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 110px;
+  border-right-width: 175px;
+  border-color: transparent;
+  border-top-color: white;
+  z-index: inherit;
+  position: relative;
+  top: 19px;
+}
+.flap5{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 48%;
+  z-index: 4;
+  position: relative;
+  bottom: 11px;
+}
+.rounder{
+  height: 25px;
+  width: 27px;
+  background-color: limegreen;
+  border-bottom-right-radius: 90%;
+  z-index: 3;
+  opacity: 100%;
+  position: relative;
+  bottom: 26px;
+}
+.button{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 5;
+  position: relative;
+  bottom: 69px;
+  left: 5px;
+}
+.pencil{
+  z-index: 0;
+  float: left;
+}
+.stick{
+  height: 370px;
+  width: 10px;
+  background-color: gold;
+  background-clip: padding-box;
+  border-width: 5px;
+  border-style: solid;
+  border-color: goldenrod;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  margin: auto;
+  position: relative;
+  left: 100px;
+  top: 60px;
+}
+.wood{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: burlywood;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-bottom-width: 40px;
+  z-index: -12;
+  position: relative;
+  right: 5px;
+  bottom: 48px;
+}
+.wood2{
+  height: 5px;
+  width: 20px;
+  background-color: burlywood;
+  z-index: -12;
+  position: relative;
+  right: 5px;
+  bottom: 48px;
+}
+.graphite{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: dimgray;
+  border-right-width: 3px;
+  border-left-width: 3px;
+  border-bottom-width: 12px;
+  z-index: -10;
+  position: relative;
+  right: 3px;
+  bottom: 3px;
+}
+.metal{
+  width: 20px;
+  height: 37px;
+  background-color: gainsboro;
+  position: relative;
+  right: 5px;
+  top: 80%;
+}
+.groove{
+  background-color: gray;
+  width: 20px;
+  height: 3px;
+  margin: 7px 0 7px 0;
+  position: relative;
+  top: 7px;
+}
+.eraser{
+  width: 20px;
+  height: 30px;
+  background-color: hotpink;
+  z-index: -2;
+  position: relative;
+  top: 77%;
+  right: 5px;
 }

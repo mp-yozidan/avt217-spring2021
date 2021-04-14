@@ -12,10 +12,23 @@ body{
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Zen Dots', monospace;
+  color: teal;
 }
 p, a, ul li, ol li{
   font-family: 'Roboto', sans-serif;
   size: 16px;
+}
+a:link{
+  color: maroon;
+}
+a:hover{
+  color: hotpink;
+}
+a:active{
+  color: deeppink;
+}
+a:visited{
+  color: indigo;
 }
 .col{
   width: 50%;

@@ -2,18 +2,21 @@ body{
   background-color: black;
   margin-left: 30px;
 }
-h1, h2, h3, h4, h5, h6, p{
+body.wbg{
+  background-color: white;
+}
+h1, h2, h3, h4, h5, h6, p, ul li{
   color: white;
+}
+.wbg{
+  color: black;
 }
 h1, h2, h3, h4, h5, h6{
   font-family: 'Press Start 2P', monospace;
 }
-p{
+p, ul li, a{
   font-size: 18px;
-  font-family: 'Roboto';
-}
-a{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-sans-serif;
 }
 a:link{
   color: deeppink;
@@ -27,11 +30,21 @@ a:hover{
 a:visited{
   color: mediumvioletred;
 }
-
-/**
-Fonts
-
-VT323
-Nova Mono
-
-**/
+.mobile{
+  float: left;
+  margin-right: 10px;
+}
+.desktop{
+  margin-top: 10px;
+}
+.clear{
+  clear: both;
+}
+@media screen and (max-width: 1439px){
+  .mobile{
+    width: 19%;
+  }
+  .desktop{
+    width: 100%;
+  }
+}

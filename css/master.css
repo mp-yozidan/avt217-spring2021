@@ -10,6 +10,13 @@ main{
 body{
   background-color: mintcream;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Zen Dots', monospace;
+}
+p, a, ul li, ol li{
+  font-family: 'Roboto', sans-serif;
+  size: 16px;
+}
 .col{
   width: 50%;
   float: left;
